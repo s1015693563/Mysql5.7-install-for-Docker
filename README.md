@@ -1,4 +1,4 @@
-# Shell_O.M
+
 0、确定解压目录下存有docker.sh、mysql_5.7.tar、root.sh
 
 1、给予*.sh 700权限,chmod 777 *.sh
@@ -28,3 +28,5 @@ DATADIR="/data/mysql/data"     #对应mysql容器的/var/lib/mysql，用于存�
 TMPDIR="/data/mysql/tmp"       #对应mysql容器的/tmp，用于存放mysql运行时生成的socket文件
 
 ETCDIR="/data/mysql/conf.d"    #对应mysql/etc/mysql/conf.d，用于存放mysql配置文件
+
+11、Mysql5.7镜像（百度云）：https://pan.baidu.com/s/1DPdKtyJZKtMbBe5Ae3UrtQ 提取码：1234
