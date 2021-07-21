@@ -1,7 +1,7 @@
 #!/bin/bash
 #This script is initalize docker,mysql5.7 image and runner for Centos7
 #author=lxh
-#date 2020/5/30/10:45:07
+#date 2021/7/20/10:45:07
 
 . /etc/init.d/functions
 
