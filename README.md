@@ -9,9 +9,7 @@
 
 4、执行setenforce 0,sed -i 's#SELINUX=enforcing#SELINUX=disabled#g' /etc/selinux/config
 
-5、解压docker.tar.gz包安装docker：rpm -ivh --nodeps --force *.rpm
-
-6、设置docker开机自起,systemctl daemon-reload，systemctl enable docker，systemct start docker
+5、设置docker开机自起,systemctl daemon-reload，systemctl enable docker，systemct start docker
 
 6、执行./docker.sh
 
